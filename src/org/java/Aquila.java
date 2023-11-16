@@ -1,8 +1,8 @@
 package org.java;
 
-public class Cane extends Animale {
+public class Aquila extends Animale {
 
-	public Cane(String nome, String cibo, String verso) {
+	public Aquila(String nome, String cibo, String verso) {
 		super(nome, cibo, verso);
 	}
 
@@ -14,13 +14,12 @@ public class Cane extends Animale {
 
 	@Override
 	public void mangia() {
-		System.out.println("Sto mangiando dei " + getCibo());
+		System.out.println("Sto mangiando del " + getCibo());
 
 	}
 
 	@Override
 	public String toString() {
-
 		return super.toString();
 	}
 

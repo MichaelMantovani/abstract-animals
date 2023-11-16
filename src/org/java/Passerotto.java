@@ -17,5 +17,10 @@ public class Passerotto extends Animale {
 		System.out.println("Sto mangiando dei " + getCibo());
 
 	}
+	
+	@Override
+	public String toString() {
+		return super.toString();
+	}
 
 }
