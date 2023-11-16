@@ -1,14 +1,16 @@
-package org.java;
+package org.java.pojo;
+
+import org.java.pojo.abs.Animale;
 
 public class Delfino extends Animale{
 
-	public Delfino(String nome, String cibo, String verso) {
-		super(nome, cibo, verso);
+	public Delfino(String nome, String cibo) {
+		super(nome, cibo);
 	}
 
 	@Override
 	public void verso() {
-		System.out.println(getVerso());
+		System.out.println("Friggo");
 		
 	}
 

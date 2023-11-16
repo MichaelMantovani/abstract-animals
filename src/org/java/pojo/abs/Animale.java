@@ -1,23 +1,13 @@
-package org.java;
+package org.java.pojo.abs;
 
 public abstract class Animale {
 	private String nome;
 	private String cibo;
-	private String verso;
 
-	public Animale(String nome, String cibo, String verso) {
+	public Animale(String nome, String cibo) {
 		setNome(nome);
 		setCibo(cibo);
-		setVerso(verso);
 
-	}
-
-	public String getVerso() {
-		return verso;
-	}
-
-	public void setVerso(String verso) {
-		this.verso = verso;
 	}
 
 	public String getCibo() {

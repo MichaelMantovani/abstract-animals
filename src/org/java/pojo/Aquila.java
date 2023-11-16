@@ -1,14 +1,16 @@
-package org.java;
+package org.java.pojo;
+
+import org.java.pojo.abs.Animale;
 
 public class Aquila extends Animale {
 
-	public Aquila(String nome, String cibo, String verso) {
-		super(nome, cibo, verso);
+	public Aquila(String nome, String cibo) {
+		super(nome, cibo);
 	}
 
 	@Override
 	public void verso() {
-		System.out.println(getVerso());
+		System.out.println("Strido");
 
 	}
 

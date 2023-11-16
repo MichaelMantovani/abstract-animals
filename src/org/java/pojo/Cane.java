@@ -1,14 +1,16 @@
-package org.java;
+package org.java.pojo;
+
+import org.java.pojo.abs.Animale;
 
 public class Cane extends Animale {
 
-	public Cane(String nome, String cibo, String verso) {
-		super(nome, cibo, verso);
+	public Cane(String nome, String cibo) {
+		super(nome, cibo);
 	}
 
 	@Override
 	public void verso() {
-		System.out.println(getVerso());
+		System.out.println("Abbaio");
 
 	}
 

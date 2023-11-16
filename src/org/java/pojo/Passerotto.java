@@ -1,14 +1,16 @@
-package org.java;
+package org.java.pojo;
+
+import org.java.pojo.abs.Animale;
 
 public class Passerotto extends Animale {
 
-	public Passerotto(String nome, String cibo, String verso) {
-		super(nome, cibo, verso);
+	public Passerotto(String nome, String cibo) {
+		super(nome, cibo);
 	}
 
 	@Override
 	public void verso() {
-		System.out.println("Cip Cip");
+		System.out.println("Cinguetto");
 
 	}
 
