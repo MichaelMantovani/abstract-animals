@@ -1,25 +1,14 @@
 package org.java;
 
 public class Cane extends Animale {
-	private String cibo;
 
-	public String getCibo() {
-		return cibo;
-	}
-
-	public void setCibo(String cibo) {
-		this.cibo = cibo;
-	}
-
-	public Cane(String nome, String cibo) {
-		super(nome);
-		setCibo(cibo);
-
+	public Cane(String nome, String cibo, String verso) {
+		super(nome, cibo, verso);
 	}
 
 	@Override
 	public void verso() {
-		System.out.println("Bau Bau");
+		System.out.println(getVerso());
 
 	}
 
