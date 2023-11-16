@@ -25,15 +25,10 @@ public class Aquila extends Animale implements IVolante {
 	public String toString() {
 		return super.toString();
 	}
-	
+
 	public void vola() {
 		System.out.println("Sto volando");
 	}
 
-	@Override
-	public void faiVolare() {
-		vola();
-		
-	}
-
+	
 }
