@@ -26,6 +26,12 @@ public class Main {
 		aquila1.mangia();
 
 		System.out.println("---------------------------------------");
-
+		
+		
+		Delfino	delfino = new Delfino("Delfino", "pesce", "Friggo");
+		System.out.println(delfino);
+		delfino.dormi();
+		delfino.verso();
+		delfino.mangia();
 	}
 }
