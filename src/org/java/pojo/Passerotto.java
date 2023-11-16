@@ -1,8 +1,9 @@
 package org.java.pojo;
 
 import org.java.pojo.abs.Animale;
+import org.java.pojo.inter.IVolante;
 
-public class Passerotto extends Animale {
+public class Passerotto extends Animale implements IVolante {
 
 	public Passerotto(String nome, String cibo) {
 		super(nome, cibo);
@@ -23,6 +24,16 @@ public class Passerotto extends Animale {
 	@Override
 	public String toString() {
 		return super.toString();
+	}
+	
+	public void vola() {
+		System.out.println("Sto volando");
+	}
+
+	@Override
+	public void faiVolare() {
+		vola();
+		
 	}
 
 }

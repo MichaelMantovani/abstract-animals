@@ -21,6 +21,7 @@ public class Main {
 		passerotto1.dormi();
 		passerotto1.verso();
 		passerotto1.mangia();
+		passerotto1.faiVolare();
 
 		System.out.println("---------------------------------------");
 
@@ -29,6 +30,7 @@ public class Main {
 		aquila1.dormi();
 		aquila1.verso();
 		aquila1.mangia();
+		aquila1.faiVolare();
 
 		System.out.println("---------------------------------------");
 
@@ -37,6 +39,7 @@ public class Main {
 		delfino.dormi();
 		delfino.verso();
 		delfino.mangia();
+		delfino.faiNuotare();
 
 	}
 }
