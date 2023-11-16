@@ -31,29 +31,27 @@ public class Main {
 			animali[x].mangia();
 			System.out.println("------------------------------");
 		}
-		
-		
+
 		
 		Animale[] volante = new Animale[2];
-		
+
 		volante[0] = aquila;
 		volante[1] = passerotto;
-		 
-		for(int x=0 ; x < volante.length; x++) {
+
+		for (int x = 0; x < volante.length; x++) {
 			faiVolare((IVolante) volante[x]);
 		}
-		
-		
+
+		System.out.println("------------------------------");
 		faiNuotare(delfino);
 	}
-	
-	public static void faiVolare (IVolante volante) {
+
+	public static void faiVolare(IVolante volante) {
 		volante.vola();
 	}
-	
+
 	public static void faiNuotare(INuotante nuotante) {
 		nuotante.nuota();
 	}
-	
-	
+
 }
